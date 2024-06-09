@@ -18,7 +18,7 @@ In order for Wi-Fi to work on macOS Sonoma (14), you MUST download & install an 
 |**iGPU**|Intel® UHD Graphics G1|
 |**SSD**|NVMe M.2 SKHynix-HFM512GDHTNI-87A0B 512GB|
 |**WLAN+BT**|Intel® Wireless-AC 9560 (A BCM card natively supported by macs will work not by much but more stable)|
-|**Audio**|Realtek ALC236|
+|**Audio**|Realtek ALC230|
 |**Ports**|2xUSB3.0, 1xUSB2.0, HDMI (does not work at all on Ice Lake devices), SD card reader, Headphone Jack, and DC charging port|
 
 ## Not Working
