@@ -7,7 +7,7 @@
 # Prequisites
 In order for Wi-Fi to work on macOS Sonoma (14), you MUST download & install an application named HeliPort.dmg from the [HeliPort](github.com/OpenIntelWireless/HeliPort/releases/latest) GitHub repository! 
 
-![About my Mac](.img/system.png)
+![About my Mac](images/About-my-mac.png)
 
 ## Specifications/Specs
 
