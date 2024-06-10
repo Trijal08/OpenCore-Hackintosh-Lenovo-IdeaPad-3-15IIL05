@@ -1,11 +1,11 @@
 # OpenCore Hackintosh EFI for Lenovo IdeaPad 3 15IIL05
-*Based on the OpenCore bootloader; off of the [OpenCorePkg](https://github.com/acidanthera/OpenCorePkg) made by [acidanthera](https://github.com/acidanthera) hosted on GitHub. Followed the [Dortania's OpenCore Install Guide](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjH3Oa9zM-GAxWT4ckDHUk3AMwQFnoECBIQAQ&url=https%3A%2F%2Fdortania.github.io%2FOpenCore-Install-Guide%2F&usg=AOvVaw0-C3oq3BIYKrFYg3XoR6SD&opi=89978449) to get everything working from scratch for best stability and compatibility!*
+*Based on the OpenCore bootloader; off of the [OpenCorePkg]([https://github.com/acidanthera/OpenCorePkg) made by [acidanthera](https://github.com/acidanthera) hosted on GitHub. Followed the [Dortania's OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/) to get everything working from scratch for the best stability and compatibility!*
 
 **WARNING/DISCLAIMER (VERY IMPORTANT)**: This EFI only supports running macOS Big Sur (11) to macOS Sonoma (14)! 
 
 
 # Prequisites
-In order for Wi-Fi to work on macOS Sonoma (14), you MUST download & install an application named HeliPort.dmg from the [HeliPort](github.com/OpenIntelWireless/HeliPort/releases/latest) GitHub repository! 
+**In order for Wi-Fi to work on macOS Sonoma (14), you MUST download & install an application named HeliPort.dmg from the [HeliPort](https://github.com/OpenIntelWireless/HeliPort/releases/latest) GitHub repository.**
 
 ## Specifications/Specs
 
