@@ -5,7 +5,7 @@
 
 
 # Prequisites
-**In order for Wi-Fi to work on macOS Sonoma (14), you MUST download & install an application named HeliPort.dmg from the [HeliPort](https://github.com/OpenIntelWireless/HeliPort/releases/latest) GitHub repository. It is also recommended that you install the latest version of an app named YogaSMC from the [YogaSMC](https://github.com/zhen-zen/YogaSMC/releases/latest) GitHub repository.**
+**In order for Wi-Fi to work on macOS Sonoma (14), you MUST download & install an application named HeliPort.dmg from the [HeliPort](https://github.com/OpenIntelWireless/HeliPort/releases/latest) GitHub repository. It is also recommended that you install the latest release version of an app named YogaSMC from the [YogaSMC](https://github.com/zhen-zen/YogaSMC/releases/latest) GitHub repository. Double click the "YogaSMCPane.prefPane" file in the "YogaSMC-App-Release.dmg" file and drag the "YogaSMCNC.app" file to "Applications" folder.**
 
 ## Specifications/Specs
 
