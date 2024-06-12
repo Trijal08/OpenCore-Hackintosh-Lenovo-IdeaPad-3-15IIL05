@@ -553,8 +553,6 @@
                     <integer>1</integer>
                     <key>AAPL,ig-platform-id</key>
                     <data>AQBcig==</data>
-                    <key>AAPL00,override-no-connect</key>
-                    <data>AP///////wAGr+1hAAAAAAAcAQSlIhN4A//lkldZkSkhUFQAAAABAQEBAQEBAQEBAQEBAQEBFDeAtHA4JkBsMKoAWMIQAAAYAAAADwAAAAAAAAAAAAAAAAAgAAAA/gBBVU8KICAgICAgICAgAAAA/gBCMTU2SFROMDYuMSAKANI=</data>
                     <key>Intel Generation</key>
                     <string>Ice Lake (LP)</string>
                     <key>backlight-smoother-interval</key>
@@ -589,10 +587,6 @@
                     <integer>1</integer>
                     <key>framebuffer-con0-type</key>
                     <data>AgAAAA==</data>
-                    <key>framebuffer-con1-enable</key>
-                    <integer>1</integer>
-                    <key>framebuffer-con1-type</key>
-                    <data>AAgAAA==</data>
                     <key>framebuffer-fbmem</key>
                     <data>AACQAA==</data>
                     <key>framebuffer-mobile</key>
@@ -601,14 +595,10 @@
                     <integer>1</integer>
                     <key>framebuffer-stolenmem</key>
                     <data>AAAwAQ==</data>
-                    <key>framebuffer-unifiedmem</key>
-                    <data>/////w==</data>
                     <key>hda-gfx</key>
                     <string>onboard-1</string>
                     <key>model</key>
                     <string>Intel UHD Graphics G1</string>
-                    <key>unfairgva</key>
-                    <data>AQAAAA==</data>
                 </dict>
                 <key>PciRoot(0x0)/Pci(0x4,0x0)</key>
                 <dict>
@@ -759,7 +749,7 @@
                     <key>BundlePath</key>
                     <string>itlwm.kext</string>
                     <key>Comment</key>
-                    <string>V2.2.0</string>
+                    <string>V2.0.0</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -767,7 +757,7 @@
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>
-                    <string>23.0.0</string>
+                    <string>24.0.0</string>
                     <key>PlistPath</key>
                     <string>Contents/Info.plist</string>
                 </dict>
@@ -775,15 +765,33 @@
                     <key>Arch</key>
                     <string>Any</string>
                     <key>BundlePath</key>
-                    <string>AirportItlwmSonoma.kext</string>
+                    <string>AirportItlwm14.4.kext</string>
                     <key>Comment</key>
                     <string>V2.3.0</string>
                     <key>Enabled</key>
-                    <false/>
+                    <true/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/AirportItlwm</string>
                     <key>MaxKernel</key>
-                    <string></string>
+                    <string>23.99.99</string>
+                    <key>MinKernel</key>
+                    <string>23.4</string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
+                    <string>AirportItlwm14.kext</string>
+                    <key>Comment</key>
+                    <string>V2.3.0</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/AirportItlwm</string>
+                    <key>MaxKernel</key>
+                    <string>23.3.99</string>
                     <key>MinKernel</key>
                     <string>23.0.0</string>
                     <key>PlistPath</key>
@@ -795,7 +803,7 @@
                     <key>BundlePath</key>
                     <string>AirportItlwmVentura.kext</string>
                     <key>Comment</key>
-                    <string>V2.2.0</string>
+                    <string>V2.3.0</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -813,7 +821,7 @@
                     <key>BundlePath</key>
                     <string>AirportItlwmMonterey.kext</string>
                     <key>Comment</key>
-                    <string>V2.2.0</string>
+                    <string>V2.3.0</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -831,7 +839,7 @@
                     <key>BundlePath</key>
                     <string>AirportItlwmBigSur.kext</string>
                     <key>Comment</key>
-                    <string>V2.2.0</string>
+                    <string>V2.3.0</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -1239,6 +1247,24 @@
                     <key>PlistPath</key>
                     <string>Contents/Info.plist</string>
                 </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
+                    <string>HibernationFixup.kext</string>
+                    <key>Comment</key>
+                    <string>V1.5.0</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/HibernationFixup</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
             </array>
             <key>Block</key>
             <array/>
@@ -1353,7 +1379,7 @@
                 <key>ShowPicker</key>
                 <true/>
                 <key>SkipCustomEntryCheck</key>
-                <true/>
+                <false/>
                 <key>TakeoffDelay</key>
                 <integer>0</integer>
                 <key>Timeout</key>
@@ -1492,7 +1518,7 @@
                 <key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
                 <dict>
                     <key>boot-args</key>
-                    <string>alcid=20 agdpmod=vit9696 watchdog=0 keepsyms=1 swd_panic=1 igfxonln=1 -vi2c-force-polling -igfxblr -noDC9 igfxfw=2 -igfxdbeo -igfxcdc -igfxdvmt -wegnoegpu -gcrfbeta</string>
+                    <string>-lilubetaall -wegbeta -vsmcbeta alcid=20 agdpmod=vit9696 watchdog=0 keepsyms=1 swd_panic=1 igfxonln=1 -igfxblr -noDC9 igfxfw=2 -igfxdbeo -igfxcdc -igfxdvmt -wegnoegpu -gcrfbeta -vi2c-force-polling</string>
                     <key>csr-active-config</key>
                     <data>/w8AAA==</data>
                     <key>prev-lang:kbd</key>
