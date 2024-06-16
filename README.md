@@ -1,7 +1,7 @@
 # OpenCore Hackintosh EFI for Lenovo IdeaPad 3 15IIL05
 *Based on the OpenCore bootloader; off of the [OpenCorePkg](https://github.com/acidanthera/OpenCorePkg) made by [acidanthera](https://github.com/acidanthera) hosted on GitHub. Followed the [Dortania's OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/) to get everything working from scratch for the best stability and compatibility!*
 
-**WARNING/DISCLAIMER (VERY IMPORTANT)**: This EFI only supports running macOS Big Sur (11) to macOS Sequoia (15)! **IT CURRENTLY DOES NOT SUPPORT TOUCHPAD IN MACOS SEQUOIA (15); BUT I WILL FIND A FIX SHORTLY!**
+**WARNING/DISCLAIMER (VERY IMPORTANT)**: This EFI only supports running macOS Big Sur (11) to macOS Sequoia (15)! 	~~**IT CURRENTLY DOES NOT SUPPORT TOUCHPAD IN MACOS SEQUOIA (15); BUT I WILL FIND A FIX SHORTLY!**~~ Fix has been found! I found the fix thanks to this [issue](https://github.com/VoodooI2C/VoodooI2C/issues/552) in the official VoodooI2C GitHub made by [dreamwhite](https://github.com/dreamwhite); he explains that using a [specific artifact/release](https://github.com/1Revenger1/VoodooInput/actions/runs/9475484687) of VoodooInput.kext solves the problem :)! The fixed version of this EFI will be in the latest release ([v1.0.1_r4](https://github.com/Trijal08/OpenCore-Hackintosh-Lenovo-IdeaPad-3-15IIL05/releases/tag/v1.0.1_r4))!
 
 
 # Prequisites
@@ -21,7 +21,7 @@ In order for Wi-Fi to work on macOS Sequoia (15), you MUST download & install an
 |**WLAN+BT**|Intel® Wireless-AC 9560 (A BCM card natively supported by macs will work more stable)|
 |**Audio**|Realtek ALC230|
 |**Ports**|2xUSB3.0, 1xUSB2.0, HDMI (does not work at all on Ice Lake devices), SD card reader, Headphone Jack, and DC charging port|
-|**OpenCore Bootloader**|V1.0.1 MOD (Will constantly be updated, including the kexts/drivers, so all you have to do is come back after a month or so and look for a commit along the lines of "Updated OpenCore to X.X.X MOD!"!)
+|**OpenCore Bootloader**|V1.0.1 MOD (Will constantly be updated, including the kexts/drivers, so all you have to do is come back after a month or so and look for a commit along the lines of "Updated OpenCore to X.X.X MOD!" or check the latest release for something like that!)
 
 ## Not Working
 
