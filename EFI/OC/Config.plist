@@ -552,7 +552,7 @@
                     <key>AAPL,GfxYTile</key>
                     <integer>1</integer>
                     <key>AAPL,ig-platform-id</key>
-                    <data>AABaig==</data>
+                    <data>AABSig==</data>
                     <key>Intel Generation</key>
                     <string>Ice Lake (LP)</string>
                     <key>backlight-smoother-interval</key>
@@ -562,7 +562,7 @@
                     <key>backlight-smoother-threshold</key>
                     <data>LAEAAA==</data>
                     <key>device-id</key>
-                    <data>WooAAA==</data>
+                    <data>UooAAA==</data>
                     <key>device_type</key>
                     <string>VGA compatible controller</string>
                     <key>framebuffer-con0-enable</key>
@@ -751,7 +751,7 @@
                     <key>BundlePath</key>
                     <string>itlwm.kext</string>
                     <key>Comment</key>
-                    <string>V2.0.0</string>
+                    <string>V2.2.0</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -857,6 +857,42 @@
                     <key>Arch</key>
                     <string>Any</string>
                     <key>BundlePath</key>
+                    <string>IntelBluetoothFirmware.kext</string>
+                    <key>Comment</key>
+                    <string>V2.4.0</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/IntelBluetoothFirmware</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
+                    <string>IntelBTPatcher.kext</string>
+                    <key>Comment</key>
+                    <string>V2.2.0</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/IntelBTPatcher</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
                     <string>BlueToolFixup.kext</string>
                     <key>Comment</key>
                     <string>V2.6.8</string>
@@ -875,15 +911,15 @@
                     <key>Arch</key>
                     <string>Any</string>
                     <key>BundlePath</key>
-                    <string>IntelBluetoothFirmware.kext</string>
+                    <string>IntelBluetoothInjector.kext</string>
                     <key>Comment</key>
                     <string>V2.4.0</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
-                    <string>Contents/MacOS/IntelBluetoothFirmware</string>
-                    <key>MaxKernel</key>
                     <string></string>
+                    <key>MaxKernel</key>
+                    <string>20.99.99</string>
                     <key>MinKernel</key>
                     <string></string>
                     <key>PlistPath</key>
@@ -1163,24 +1199,6 @@
                     <key>Arch</key>
                     <string>Any</string>
                     <key>BundlePath</key>
-                    <string>VoodooI2C.kext/Contents/PlugIns/VoodooInput.kext</string>
-                    <key>Comment</key>
-                    <string>V1.1.5</string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>ExecutablePath</key>
-                    <string>Contents/MacOS/VoodooInput</string>
-                    <key>MaxKernel</key>
-                    <string></string>
-                    <key>MinKernel</key>
-                    <string></string>
-                    <key>PlistPath</key>
-                    <string>Contents/Info.plist</string>
-                </dict>
-                <dict>
-                    <key>Arch</key>
-                    <string>Any</string>
-                    <key>BundlePath</key>
                     <string>VoodooI2C.kext</string>
                     <key>Comment</key>
                     <string>V2.8</string>
@@ -1253,6 +1271,42 @@
                     <key>Arch</key>
                     <string>Any</string>
                     <key>BundlePath</key>
+                    <string>VoodooInput.kext</string>
+                    <key>Comment</key>
+                    <string>V1.1.5</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/VoodooInput</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
+                    <string>RTCMemoryFixup.kext</string>
+                    <key>Comment</key>
+                    <string>V1.0.7</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/RTCMemoryFixup</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
                     <string>HibernationFixup.kext</string>
                     <key>Comment</key>
                     <string>V1.5.0</string>
@@ -1310,7 +1364,7 @@
                 <key>AppleCpuPmCfgLock</key>
                 <false/>
                 <key>AppleXcpmCfgLock</key>
-                <false/>
+                <true/>
                 <key>AppleXcpmExtraMsrs</key>
                 <false/>
                 <key>AppleXcpmForceBoost</key>
@@ -1318,15 +1372,15 @@
                 <key>CustomPciSerialDevice</key>
                 <false/>
                 <key>CustomSMBIOSGuid</key>
-                <true/>
-                <key>DisableIoMapper</key>
                 <false/>
+                <key>DisableIoMapper</key>
+                <true/>
                 <key>DisableIoMapperMapping</key>
                 <false/>
                 <key>DisableLinkeditJettison</key>
                 <true/>
                 <key>DisableRtcChecksum</key>
-                <true/>
+                <false/>
                 <key>ExtendBTFeatureFlags</key>
                 <false/>
                 <key>ExternalDiskIcons</key>
@@ -1538,7 +1592,7 @@
                 <key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
                 <dict>
                     <key>boot-args</key>
-                    <string>-lilubetaall -vsmcbeta -advmapbeta alcid=20 agdpmod=vit9696 watchdog=0 keepsyms=1 swd_panic=1 igfxonln=1 -igfxblr -igfxbls -noDC9 igfxfw=2 -igfxdbeo -igfxcdc -igfxdvmt forceRenderStandby=0 -wegnoegpu -gcrfbeta -vi2c-force-polling</string>
+                    <string>-lilubetaall -vsmcbeta -advmapbeta alcid=20 agdpmod=vit9696 watchdog=0 swd_panic=1 igfxonln=1 -igfxblr -igfxbls -noDC9 igfxfw=2 -igfxdbeo -igfxcdc -igfxdvmt forceRenderStandby=0 -wegnoegpu -gcrfbeta -vi2c-force-polling</string>
                     <key>csr-active-config</key>
                     <data>/w8AAA==</data>
                     <key>prev-lang:kbd</key>
